@@ -26,6 +26,7 @@ header {
 .logo img{
     width: 80px;
     height: 80px;
+    padding: 2px;
 }
 .logo {
     width: 100px;
@@ -66,7 +67,7 @@ header {
 
 .banner {
     background-color:gray;
-    background-image:url('./images/complementos/bg.jpg');
+    background-image:url('./images/complementos/foto5.jpg');
     height:calc(100vh - 100px);
     background-size: cover;
     background-position: bottom;
@@ -85,6 +86,7 @@ header {
 .banner .slidearea, 
 .section-equipe .slidearea{
     display: flex;
+    text-align: center;
     height:100%;
     align-items:center;
     justify-content:center;
@@ -92,16 +94,25 @@ header {
     flex-direction: column;
 }
 .banner h1{
+    line-height: 40px;
+    text-align: center;
     text-transform: uppercase;
     font-weight: bold;
-    font-size:50px;
+    font-size:92px;
 }
 .banner h1 span{
+    text-align: center;
+    font-size:40px;
+    letter-spacing: 10px;
+    font-family: Montserrat;
+    font-weight: 100;
     color: orange
 }
 .banner h2{
     text-transform: uppercase;
-    margin-top: 20px;
+    margin-top: 30px;
+    letter-spacing: 3px;
+    
 }
 .button{
     display: inline-block;
@@ -326,7 +337,8 @@ header {
     flex-direction: column;
     }
 .section-equipe img{
-        width:100px;
+        width:120px;
+        border-radius: 100%;
         margin-bottom: 20px;
 }
 .section-equipe span{
@@ -364,17 +376,24 @@ header {
 }
 .section-parceiro p{
     margin-top: 10px;
+    
 }
 .section-parceiro img{
- width:auto;
+    width:100px;
+    height:auto;
+    margin-left: auto;
+    margin-right: auto;
+    align-items:center;
+    justify-content:center;
  
  
 }
 .section-parceiros .areaimg{
     justify-content: center;
     align-items: center;
+
     display: flex;
-    width:120px;
+    
     height:80px;
 }
 
@@ -385,7 +404,7 @@ header {
     margin-top:30px;
     color:orange;
     text-transform: uppercase;
-    font-size: 18px;
+    font-size: 48px;
     margin-bottom: 10px;
 }
 .section-fato {
@@ -410,7 +429,7 @@ header {
 
 }
 .section-susten img {
-    width:380px;
+    width:430px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -422,7 +441,7 @@ header {
     line-height:25px;
 }
 .section-susten h1{
-    margin-top:30px;
+    margin-top:0px;
     color:black;
     text-transform: uppercase;
     font-size: 18px;
@@ -498,11 +517,11 @@ margin-bottom:10px;
 }
 
 .section-map {
-    background-image: url(./images/complementos/foto8.jpg);
+    background-image: url(./images/complementos/mapa.PNG);
     padding-top:30px;
     padding-bottom: 30px;
     background-size: cover;
-    background-position:center;
+    background-position:top;
 }
 .section-map--area {
 width:100vw;
@@ -566,7 +585,13 @@ margin:auto;
 }
 .rodape-area-icones a{
     padding-left: 10px;
+    
     padding-right: 10px;
+}
+.rodape-area-icones img{
+    max-width:18px;
+    
+    height:auto;
 }
 .rodape-area-sub{
     width:300px;
@@ -598,15 +623,15 @@ margin:auto;
     
     
     
-    
-    width:300px;
+    padding-left: 20px;
+    width:270px;
     height: 150px;;
 
 }
 .rodape-logo img{
     display: block;
 
-    width:200px;
+    width:150px;
     height:auto;
 
 }
@@ -753,6 +778,15 @@ nav {
 .rodape-area-icones{
     height:80px;
 }
+.rodape-logo{
+    margin-top:23px;
+    align-items:center;
+    justify-content:center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0px;
+}
 .rodape-logo img{
     display: block;
     align-items:center;
@@ -804,10 +838,14 @@ nav {
         margin-left: 30px;
     }
     .slidearea h1{
-        font-size: 30px;
+        font-size: 70px;
     }
     .slidearea h2{
-        font-size: 20px;
+        font-size: 15px;
+    }
+    .slidearea h1 span{
+        
+        font-size: 30px;
     }
     .section-aboutus{
         flex-direction: column;
@@ -849,6 +887,13 @@ nav {
         display: flex;
         flex-wrap: wrap;
     }
+    .section-equipe h1{
+        font-size: 20px;
+    }
+    .section-equipe h1 span{
+        font-size:15px;
+    }
+
     
     
     .section-fato {
@@ -861,6 +906,7 @@ nav {
     }
     .section-susten--right{
         margin-right: 30px;
+        margin-left: 10px;
     }
     .section-susten--left img{
         width:230px;
@@ -868,6 +914,7 @@ nav {
     }
     .section-map--info{
         width:auto;
+        
     
     }
     .section-contactus{
@@ -894,7 +941,9 @@ nav {
 
     .section-map{
         padding:0;
-        padding-bottom: 250px;
+        background-position:center;
+        background-size:cover;
+        padding-top: 250px;
     }
     .section-map--area{
         width:auto;
@@ -916,8 +965,20 @@ nav {
     .rodape-area-icones{
         height:80px;
     }
+    
+
+    .rodape-logo{
+        margin-top:23px;
+        align-items:center;
+        justify-content:center;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 0px;
+    }
     .rodape-logo img{
         display: block;
+        width:150px;
         align-items:center;
         justify-content:center;
         text-align: center;
