@@ -1,6 +1,7 @@
 # Site para uma construtora local
 
-> Template básico criado para testar conhecimentos de html e css, aplicado para uma construtora
+> Template básico criado para testar conhecimentos de html, css e javascript, aplicado para uma construtora real
+> 
 ## Imagens
 
   <p>    
