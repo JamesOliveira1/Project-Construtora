@@ -1,12 +1,12 @@
 # Site para uma construtora local
 
 > Template criado para testar conhecimentos de html, css e javascript, aplicado para uma construtora real
-> 
+
 ## Imagens
 
   <p>    
   <img src="images/complementos/screenshot.png" width="600" alt="preview">
-</p>
+  </p>
 
 ## Resumo
 
@@ -16,7 +16,7 @@ O objetivo era criar algo simples, apenas utilizar html e css, flexgrid, criando
 
 * 0.2.0 Versão utilizada atualmente
     * Atualização de conteúdo
-    * Links
+    * Adição de Links
 * 0.1.0
     * Responsividade
     * Adição de conteúdo
